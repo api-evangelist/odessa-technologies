@@ -1,0 +1,268 @@
+name: Odessa Technologies
+description: |
+  Odessa is a Philadelphia-headquartered lease and loan management software
+  company founded in 1998 that powers asset finance for banks, captive finance
+  companies, and independent lenders. The Odessa Platform manages roughly
+  $200B in assets across equipment finance and auto finance, covering the full
+  asset lifecycle from origination through servicing and remarketing on a
+  modern, API-first, Microsoft Azure-hosted SaaS stack with low-code
+  developer tools, packaged integrations, and an Odessa AI layer for agentic
+  asset-finance workflows. The platform's APIs and developer tooling are
+  delivered to licensed customers (no public developer portal, no OpenAPI,
+  no public SDK or GitHub org); profiling here captures the surface visible
+  from the marketing site, integrations catalog, and engineering blog.
+url: https://github.com/api-evangelist/odessa-technologies
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-master/logos/odessa-technologies.png
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+tags:
+  - Asset Finance
+  - Lease Management
+  - Loan Management
+  - Equipment Finance
+  - Auto Finance
+  - Originations
+  - Servicing
+  - Remarketing
+  - Low Code
+  - Financial Services
+
+common:
+  - type: Homepage
+    url: https://www.odessainc.com/
+  - type: Company
+    url: https://www.odessainc.com/company/
+  - type: Platform
+    url: https://www.odessainc.com/our-technology/
+  - type: DeveloperTools
+    url: https://www.odessainc.com/developer-tools/
+  - type: Integrations
+    url: https://www.odessainc.com/integrations/
+  - type: CloudPlatform
+    url: https://www.odessainc.com/cloud-platform/
+  - type: Partners
+    url: https://www.odessainc.com/partners/
+  - type: Blog
+    url: https://www.odessainc.com/blog/
+  - type: Newsroom
+    url: https://www.odessainc.com/newsroom/
+  - type: Events
+    url: https://www.odessainc.com/events/
+  - type: Contact
+    url: https://www.odessainc.com/contact-us/
+  - type: CustomerPortal
+    url: https://odessainc.my.site.com/customer
+  - type: GitHub
+    url: https://github.com/odessainc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/odessa-technologies-inc-/
+  - type: Sitemap
+    url: https://www.odessainc.com/sitemap.xml
+
+apis:
+  - name: Odessa Platform
+    description: |
+      Unified lease and loan management platform delivering originations,
+      servicing, and remarketing on a single asset-level data model with an
+      API-first integration framework, low-code configuration tooling, and
+      embedded AI. Delivered as SaaS on Microsoft Azure with single-tenant
+      hosting and SOC 1/2/3 plus ISO 27001/9001 compliance. APIs and
+      developer tooling are exposed to licensed customers — no public API
+      reference or OpenAPI specification is published.
+    humanURL: https://www.odessainc.com/lease-loan-management-platform/
+    tags:
+      - Platform
+      - Lease
+      - Loan
+      - Asset Lifecycle
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/lease-loan-management-platform/
+      - type: Originations
+        url: https://www.odessainc.com/lease-loan-origination-software/
+      - type: Servicing
+        url: https://www.odessainc.com/lease-loan-servicing-software/
+      - type: Remarketing
+        url: https://www.odessainc.com/asset-remarketing-software/
+      - type: AI
+        url: https://www.odessainc.com/blog/beyond-the-chatbots-how-agentic-ai-supercharges-asset-finance/
+
+  - name: Originations
+    description: |
+      Digital lease and loan origination spanning program configuration
+      (manufacturers, asset types, fee models, rules-based rate cards),
+      application capture, credit pulls and bureau integrations, rules-driven
+      scorecards, and deal review. Integrations with Experian and other
+      bureaus are pre-built; rules and workflow are configurable through the
+      low-code toolkit.
+    humanURL: https://www.odessainc.com/lease-loan-origination-software/
+    tags:
+      - Originations
+      - Credit
+      - Underwriting
+      - Application
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/lease-loan-origination-software/
+
+  - name: Servicing
+    description: |
+      Lease and loan servicing covering invoicing, collections, portfolio
+      management, and asset-level financial tracking. Power BI is used for
+      analytics and reporting against the underlying asset-level data model.
+    humanURL: https://www.odessainc.com/lease-loan-servicing-software/
+    tags:
+      - Servicing
+      - Invoicing
+      - Collections
+      - Portfolio
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/lease-loan-servicing-software/
+
+  - name: Remarketing
+    description: |
+      End-of-term and disposition workflows including terminations, vehicle
+      and equipment collection, inspection, resale, title management,
+      inventory tracking, off-lease depreciation, appraisals, accounts
+      payable for asset funding and pass-throughs, and document generation.
+    humanURL: https://www.odessainc.com/asset-remarketing-software/
+    tags:
+      - Remarketing
+      - Disposition
+      - Asset Management
+      - Title
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/asset-remarketing-software/
+
+  - name: Equipment Finance
+    description: |
+      Vertical packaging of the Odessa Platform for equipment lessors and
+      banks — agile API components, asset-level control, self-service
+      customer and partner portals, and integrated originations/servicing/
+      remarketing for the equipment-finance lifecycle.
+    humanURL: https://www.odessainc.com/equipment-finance-software/
+    tags:
+      - Equipment Finance
+      - Vertical
+      - Lessor
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/equipment-finance-software/
+
+  - name: Auto Finance
+    description: |
+      Vertical packaging of the Odessa Platform for auto lenders and captive
+      finance, with product/pricing/dealer management, application entry
+      via an open API framework, scorecards integrated with external credit
+      and fraud providers, eContract preparation, and contract booking.
+      Supports traditional auto finance plus usage-based, subscription,
+      fleet, as-a-service, and fractional-ownership structures.
+    humanURL: https://www.odessainc.com/auto-finance-software/
+    tags:
+      - Auto Finance
+      - Captive Finance
+      - Dealer
+      - Subscription
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/auto-finance-software/
+
+  - name: Developer Tools
+    description: |
+      Low-code configuration and extension surface for the Odessa Platform —
+      documented APIs for connecting any application or data source,
+      pre-built reusable components, test-automation harness, a business
+      rules engine, and a GUI for business-user customization. Not a public
+      developer portal; API documentation is delivered to licensed customers.
+    humanURL: https://www.odessainc.com/developer-tools/
+    tags:
+      - Developer Tools
+      - Low Code
+      - API
+      - Test Automation
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/developer-tools/
+
+  - name: Integrations
+    description: |
+      Pre-built integrations across credit bureaus (FICO LiquidCredit,
+      PayNet, D&B, Experian, Equifax, TransUnion), general ledger (SAP,
+      Microsoft Dynamics Great Plains, Quickbooks, Finacle, Oracle FLEXCUBE),
+      electronic signature (DocuSign, Adobe Acrobat Sign), KYC/AML
+      (LexisNexis, WorldCheck, SmartyStreets), CRM (Salesforce,
+      Dynamics365), tax (Vertex, Taxware, PTMS), dealer portals (RouteOne,
+      Dealertrack), and valuation (Kelly Blue Book, Black Book, ALG).
+    humanURL: https://www.odessainc.com/integrations/
+    tags:
+      - Integrations
+      - Credit Bureau
+      - General Ledger
+      - eSignature
+      - KYC
+      - CRM
+      - Tax
+      - Valuation
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/integrations/
+
+  - name: Odessa Cloud Platform
+    description: |
+      Managed SaaS hosting on Microsoft Azure with single-tenant dedicated
+      environment option, customer-controlled release tracks, SAML/SSO,
+      SOC 1, SOC 2, SOC 3, ISO 27001, and ISO 9001 compliance.
+    humanURL: https://www.odessainc.com/cloud-platform/
+    tags:
+      - Cloud
+      - SaaS
+      - Azure
+      - SOC 2
+      - ISO 27001
+    properties:
+      - type: Documentation
+        url: https://www.odessainc.com/cloud-platform/
+
+  - name: Odessa AI
+    description: |
+      AI layer across the asset-finance lifecycle covering agentic workflows
+      for originations, servicing, compliance, and remarketing. Positioned
+      around use cases such as document understanding, decisioning support,
+      and operational automation rather than as an exposed API surface.
+    humanURL: https://www.odessainc.com/blog/beyond-the-chatbots-how-agentic-ai-supercharges-asset-finance/
+    tags:
+      - AI
+      - Agentic
+      - Automation
+    properties:
+      - type: Blog
+        url: https://www.odessainc.com/blog/beyond-the-chatbots-how-agentic-ai-supercharges-asset-finance/
+
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+
+x-pipeline:
+  profiledOn: '2026-05-23'
+  pipelineRun: company-light
+  hasPublicOpenAPI: false
+  hasPublicDeveloperPortal: false
+  hasPublicSDK: false
+  hasGitHubOrg: true
+  gitHubOrgHasPublicRepos: false
+  hasStatusPage: false
+  hasRSSFeed: false
+  hasPublicPricing: false
+  hasPublicChangelog: false
+  notes: |
+    Odessa Technologies is a private B2B asset-finance software vendor whose
+    APIs, SDK, sandbox, and product documentation are gated behind a customer
+    portal (odessainc.my.site.com/customer). No public OpenAPI/AsyncAPI
+    artifacts, no public SDK, no GitHub repositories, no status page, no
+    public pricing — only marketing pages, the integrations catalog, the
+    Microsoft Azure cloud-platform page, and the engineering/insights blog
+    were available to profile. The "API-first" platform claim is documented
+    in marketing copy but cannot be verified without customer access.
