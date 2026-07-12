@@ -29,6 +29,8 @@ tags:
   - Financial Services
 
 common:
+  - type: DomainSecurity
+    url: security/odessa-technologies-domain-security.yml
   - type: Website
     url: https://www.odessainc.com/
   - type: Company
