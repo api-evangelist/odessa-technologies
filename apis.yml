@@ -12,6 +12,17 @@ description: |
   no public SDK or GitHub org); profiling here captures the surface visible
   from the marketing site, integrations catalog, and engineering blog.
 url: https://github.com/api-evangelist/odessa-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-master/logos/odessa-technologies.png
 created: '2026-05-23'
 modified: '2026-05-23'
