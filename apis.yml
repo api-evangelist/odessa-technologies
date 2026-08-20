@@ -36,6 +36,17 @@ tags:
   - Originations
   - Servicing
   - Remarketing
+  - Low-Code
+  - Financial-Services
+tags_raw:
+  - Asset Finance
+  - Lease Management
+  - Loan Management
+  - Equipment Finance
+  - Auto Finance
+  - Originations
+  - Servicing
+  - Remarketing
   - Low Code
   - Financial Services
 
@@ -128,6 +139,11 @@ apis:
     tags:
       - Servicing
       - Invoicing
+      - Collection
+      - Portfolio
+    tags_raw:
+      - Servicing
+      - Invoicing
       - Collections
       - Portfolio
     properties:
@@ -193,6 +209,10 @@ apis:
     humanURL: https://www.odessainc.com/developer-tools/
     tags:
       - Developer Tools
+      - Low-Code
+      - Test Automation
+    tags_raw:
+      - Developer Tools
       - Low Code
       - API
       - Test Automation
@@ -211,6 +231,15 @@ apis:
       Dealertrack), and valuation (Kelly Blue Book, Black Book, ALG).
     humanURL: https://www.odessainc.com/integrations/
     tags:
+      - Integration
+      - Credit Bureau
+      - General Ledger
+      - E-Signature
+      - KYC
+      - CRM
+      - Tax
+      - Valuation
+    tags_raw:
       - Integrations
       - Credit Bureau
       - General Ledger
@@ -231,6 +260,12 @@ apis:
     humanURL: https://www.odessainc.com/cloud-platform/
     tags:
       - Cloud
+      - Software-as-a-Service
+      - Azure
+      - SOC 2
+      - ISO 27001
+    tags_raw:
+      - Cloud
       - SaaS
       - Azure
       - SOC 2
@@ -247,6 +282,10 @@ apis:
       and operational automation rather than as an exposed API surface.
     humanURL: https://www.odessainc.com/blog/beyond-the-chatbots-how-agentic-ai-supercharges-asset-finance/
     tags:
+      - Artificial Intelligence
+      - Agentic
+      - Automation
+    tags_raw:
       - AI
       - Agentic
       - Automation
