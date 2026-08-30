@@ -47,7 +47,7 @@ tags:
   - Originations
   - Servicing
   - Remarketing
-  - Low-Code
+  - Low Code
   - Financial-Services
 tags_raw:
   - Asset Finance
@@ -220,7 +220,7 @@ apis:
     humanURL: https://www.odessainc.com/developer-tools/
     tags:
       - Developer Tools
-      - Low-Code
+      - Low Code
       - Test Automation
     tags_raw:
       - Developer Tools
@@ -245,7 +245,7 @@ apis:
       - Integration
       - Credit Bureau
       - General Ledger
-      - E-Signature
+      - eSignature
       - KYC
       - CRM
       - Tax
