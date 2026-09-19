@@ -204,6 +204,11 @@ apis:
     tags:
       - Auto Finance
       - Captive Finance
+      - Dealers
+      - Subscription
+    tags_raw:
+      - Auto Finance
+      - Captive Finance
       - Dealer
       - Subscription
     properties:
