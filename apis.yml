@@ -48,7 +48,7 @@ tags:
   - Servicing
   - Remarketing
   - Low-Code
-  - Financial-Services
+  - Financial Services
 tags_raw:
   - Asset Finance
   - Lease Management
@@ -60,6 +60,7 @@ tags_raw:
   - Remarketing
   - Low Code
   - Financial Services
+  - Financial-Services
 
 common:
   - type: DomainSecurity
@@ -299,7 +300,7 @@ apis:
     humanURL: https://www.odessainc.com/blog/beyond-the-chatbots-how-agentic-ai-supercharges-asset-finance/
     tags:
       - Artificial Intelligence
-      - Agentic
+      - AI Agents
       - Automation
     tags_raw:
       - AI
