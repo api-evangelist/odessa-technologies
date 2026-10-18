@@ -278,7 +278,7 @@ apis:
     tags:
       - Cloud
       - Software-as-a-Service
-      - Azure
+      - Microsoft Azure
       - SOC 2
       - ISO 27001
     tags_raw:
