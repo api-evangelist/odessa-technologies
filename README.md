@@ -64,110 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile of [Odessa Technologies](https://www.odessainc.com/), a Philadelphia-headquartered lease and loan management software company founded in 1998 with 1,000+ employees across six countries. The Odessa Platform manages roughly $200B in assets for banks, captive finance companies, and independent lenders across equipment finance and auto finance.
+Odessa is a Philadelphia-headquartered lease and loan management software company founded in 1998 that powers asset finance for banks, captive finance companies, and independent lenders. The Odessa Platform manages roughly $200B in assets across equipment finance and auto finance, covering the full asset lifecycle from origination through servicing and remarketing on a modern, API-first, Microsoft Azure-hosted SaaS stack with low-code developer tools, packaged integrations, and an Odessa AI layer for agentic asset-finance workflows. The platform's APIs and developer tooling are delivered to licensed customers (no public developer portal, no OpenAPI, no public SDK or GitHub org); profiling here captures the surface visible from the marketing site, integrations catalog, and engineering blog.
 
-## Summary
+**Areas:** Asset Finance · Lease Management · Loan Management · Equipment Finance · Auto Finance · Originations · Servicing · Remarketing · Low-Code · Financial Services
 
-Odessa is a single-platform asset-finance ISV — originations, servicing, and remarketing run on one asset-level data model with a low-code configuration layer, packaged integrations to credit/GL/eSign/CRM/tax/valuation providers, an Odessa AI layer for agentic workflows, and managed SaaS hosting on Microsoft Azure (with single-tenant dedicated-environment option). Marketing positions the platform as "API-first" with "documented APIs to connect to any application or data source," but those APIs, the developer documentation, the SDK, and the sandbox are gated behind the customer portal at `odessainc.my.site.com/customer`. There is no public OpenAPI specification, no public developer portal URL, no public SDK, no populated GitHub organization, no status page, no public pricing page, and no public changelog. This profile captures the surface that is visible publicly: the platform/product pages, the integrations catalog, the cloud-platform page, the partner list, and the engineering blog.
+## Odessa Technologies on APIs.io
 
-## APIs Documented
+Everything profiled for Odessa Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/odessa-technologies/](https://apis.io/providers/odessa-technologies/)** — or go straight to one of the APIs or properties below.
 
-The repo's [apis.yml](apis.yml) catalogs **10** API surfaces / platform pillars:
+### APIs (10)
 
-| Name | Surface |
-|------|---------|
-| Odessa Platform | Unified lease & loan management platform |
-| Originations | Digital lease/loan origination + credit |
-| Servicing | Invoicing, collections, portfolio |
-| Remarketing | End-of-term, disposition, title, AP |
-| Equipment Finance | Vertical packaging for equipment lessors |
-| Auto Finance | Vertical packaging for auto lenders & captives |
-| Developer Tools | Low-code, documented APIs, test automation |
-| Integrations | Pre-built bureau / GL / eSign / KYC / CRM / tax / valuation |
-| Odessa Cloud Platform | Managed SaaS on Microsoft Azure |
-| Odessa AI | Agentic AI across the asset-finance lifecycle |
+- [Odessa Platform](https://apis.io/apis/odessa-technologies/odessa-platform/) — Unified lease and loan management platform delivering originations, servicing, and remarketing on a single asset-level data model with an API-first…
+- [Originations](https://apis.io/apis/odessa-technologies/originations/) — Digital lease and loan origination spanning program configuration (manufacturers, asset types, fee models, rules-based rate cards), application capture,…
+- [Servicing](https://apis.io/apis/odessa-technologies/servicing/) — Lease and loan servicing covering invoicing, collections, portfolio management, and asset-level financial tracking. Power BI is used for analytics and…
+- [Remarketing](https://apis.io/apis/odessa-technologies/remarketing/) — End-of-term and disposition workflows including terminations, vehicle and equipment collection, inspection, resale, title management, inventory tracking,…
+- [Equipment Finance](https://apis.io/apis/odessa-technologies/equipment-finance/) — Vertical packaging of the Odessa Platform for equipment lessors and banks — agile API components, asset-level control, self-service customer and partner…
+- [Auto Finance](https://apis.io/apis/odessa-technologies/auto-finance/) — Vertical packaging of the Odessa Platform for auto lenders and captive finance, with product/pricing/dealer management, application entry via an open API…
+- [Developer Tools](https://apis.io/apis/odessa-technologies/developer-tools/) — Low-code configuration and extension surface for the Odessa Platform — documented APIs for connecting any application or data source, pre-built reusable…
+- [Integrations](https://apis.io/apis/odessa-technologies/integrations/) — Pre-built integrations across credit bureaus (FICO LiquidCredit, PayNet, D&B, Experian, Equifax, TransUnion), general ledger (SAP, Microsoft Dynamics Great…
+- [Odessa Cloud Platform](https://apis.io/apis/odessa-technologies/odessa-cloud-platform/) — Managed SaaS hosting on Microsoft Azure with single-tenant dedicated environment option, customer-controlled release tracks, SAML/SSO, SOC 1, SOC 2, SOC 3,…
+- [Odessa AI](https://apis.io/apis/odessa-technologies/odessa-ai/) — AI layer across the asset-finance lifecycle covering agentic workflows for originations, servicing, compliance, and remarketing. Positioned around use cases…
 
-## Verticals
+### Published properties
 
-- **Equipment Finance** — banks, captive lessors, independent equipment lessors
-- **Auto Finance** — captive finance, prime/near-prime auto, alternative structures (usage-based, subscription, fleet, as-a-service, fractional)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Integrations (Public Catalog)
+#### Security (1)
 
-| Category | Named providers |
-|----------|------------------|
-| Credit Bureaus | FICO LiquidCredit, PayNet, D&B, Experian, Equifax, TransUnion |
-| General Ledger | Microsoft Dynamics Great Plains, SAP, Quickbooks, Finacle, Oracle FLEXCUBE |
-| Electronic Signature | DocuSign, Adobe Acrobat Sign |
-| KYC / AML | LexisNexis, WorldCheck, SmartyStreets |
-| CRM | Salesforce, Dynamics365 |
-| Tax | Vertex, Taxware, PTMS |
-| Dealer Portal | RouteOne, Dealertrack |
-| Valuation | Kelly Blue Book, Black Book, ALG |
+Authentication, trust centre, and vulnerability disclosure.
 
-## Cloud & Compliance
+- [Odessa Technologies Domain Security](https://apis.io/security/odessa-technologies/odessa-technologies-domain-security/)
 
-- Hosting: **Microsoft Azure** (deep partnership)
-- Deployment: SaaS, with single-tenant dedicated-environment option and customer-controlled release tracks
-- Auth: SAML, SSO
-- Certifications: **SOC 1, SOC 2, SOC 3, ISO 27001, ISO 9001**
-- Status page: not publicly published
+## Where to find this API
 
-## Named Partners
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Accenture, ConsultDisrupt, Assurant, J.D. Power ChromeData, BlackWinch, Capgemini, Acquis Insurance, TeamWill, Vertex.
+- [Website](https://www.odessainc.com/)
+- [Blog](https://www.odessainc.com/blog/)
 
-## Notable Absences
+## API Evangelist rating
 
-- No public OpenAPI / AsyncAPI specification
-- No public developer portal URL (no `docs.odessainc.com` or `developer.odessainc.com`)
-- No public SDK or code sample repositories
-- No populated GitHub organization (`github.com/odessainc` exists as a user with zero public repos)
-- No public status page
-- No public pricing page
-- No public changelog or release notes
-- No public RSS feed for the blog (email subscription only)
+**Kin Score 8.0** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-Because there is no public OpenAPI/SDK to reverse-engineer, this repo intentionally does **not** generate empty `openapi/`, `capabilities/`, `rules/`, `json-schema/`, `examples/`, `plans/`, `rate-limits/`, or `finops/` directories. Only `apis.yml` and `README.md` are produced — per the API Evangelist pipeline rules, placeholder artifacts are not committed.
+| Facet | Score |
+|---|---|
+| Discoverability | 63.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
 
-## Pipeline
+**Agent readiness 0.0** — human-only
 
-| Step | Status |
-|------|--------|
-| update-apis | Done — `apis.yml` with 10 APIs |
-| profile-github-org | Done — `github.com/odessainc` is a user with zero public repos |
-| discover-crds | N/A — not a Kubernetes-native platform |
-| update-artifacts | Skipped — no public OpenAPI / AsyncAPI / JSON Schema / Postman discoverable |
-| generate-operation-examples | Skipped — no OpenAPI |
-| title-case-summaries | Skipped — no OpenAPI |
-| generate-spectral-rules | Skipped — no OpenAPI |
-| generate-naftiko-capabilities | Skipped — no OpenAPI |
-| generate-json-schema | Skipped — no schemas |
-| generate-json-structure | Skipped — no schemas |
-| generate-json-ld | Skipped — no vocabulary backing |
-| generate-examples | Skipped — no schemas |
-| generate-vocabulary | Skipped — no public technical vocabulary |
-| generate-plans | Skipped — no public pricing |
-| generate-rate-limits | Skipped — no public rate-limit policy |
-| generate-finops | Skipped — no public billing surface |
-| update-apis (pass 2) | Done — no new artifacts to index |
-| update-readme | Done — this file |
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Sources
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-- https://www.odessainc.com/
-- https://www.odessainc.com/company/
-- https://www.odessainc.com/our-technology/
-- https://www.odessainc.com/lease-loan-management-platform/
-- https://www.odessainc.com/lease-loan-origination-software/
-- https://www.odessainc.com/lease-loan-servicing-software/
-- https://www.odessainc.com/asset-remarketing-software/
-- https://www.odessainc.com/equipment-finance-software/
-- https://www.odessainc.com/auto-finance-software/
-- https://www.odessainc.com/developer-tools/
-- https://www.odessainc.com/integrations/
-- https://www.odessainc.com/cloud-platform/
-- https://www.odessainc.com/partners/
-- https://www.odessainc.com/blog/
-- https://www.odessainc.com/sitemap.xml
-- https://github.com/odessainc
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/odessa-technologies/](https://apis.io/providers/odessa-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Odessa Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/odessa-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
